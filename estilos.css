@@ -19,6 +19,7 @@ header{
     width: 100%;
     display:inline-block;
 }
+
 .bg-color{
     background-color: #f72585;
 }
@@ -39,12 +40,13 @@ header{
 }
 
 .nav-item{
-    padding-right: 30px;
+    align-content: space-around;
+    padding-left: 20px;
 }
 
 .nav-link{
     font-family: 'Caveat Brush', cursive;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .nav-link:hover{
@@ -52,4 +54,21 @@ header{
     transform: scale(1.2);
 }
 
+.form-inline{
+    align-self: center;
+    padding-left: 30px;
+}
 
+.img_size{
+    height: auto;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.mensaje_carousel{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0 0 5px #333;
+}
