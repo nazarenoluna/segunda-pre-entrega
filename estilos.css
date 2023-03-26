@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Butterfly+Kids&family=Caveat+Brush&family=Irish+Grover&family=Slackey&display=swap');
+
+/* font-family: 'Butterfly Kids', cursive;
+font-family: 'Caveat Brush', cursive;
+font-family: 'Irish Grover', cursive;
+font-family: 'Slackey', cursive; */
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+header{
+    width: 100%;
+    display:inline-block;
+}
+.bg-color{
+    background-color: #f72585;
+}
+.logo{
+    height: 50px;
+    width: 50px;
+}
+
+.navbar-brand{
+    text-shadow: 0 0 5px black;
+    padding-left: 10px;
+    font-size: 20px;
+    font-family: 'Slackey', cursive;
+}
+
+#espacio{
+    flex-direction: row;
+}
+
+.nav-item{
+    padding-right: 30px;
+}
+
+.nav-link{
+    font-family: 'Caveat Brush', cursive;
+    font-size: 25px;
+}
+
+.nav-link:hover{
+    transition: all 0.9s;
+    transform: scale(1.2);
+}
+
+
