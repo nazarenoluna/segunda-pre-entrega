@@ -102,7 +102,6 @@ h2{
 }
 
 .nleft{
-    background-image: url(https://goo.gl/maps/Qv3L7NJM2wN6iHct7);
     background-size: cover;
     background-position: center;
     padding-top: 20px;
@@ -116,5 +115,26 @@ h2{
     font-size: 20px;
 }
 
+footer{
+    height: 90px;
+    width: 100%;
+    background-color: #f72585;
+    font-size: 20px;
+    font-family:'Caveat Brush', cursive;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
 
+.redes a{
+    font-size: 30px;
+    color: #333;
+    letter-spacing: 30px;
+    text-decoration: none;
+}
+
+.redes a:hover{
+    transition: all 0.9s;
+    transform: scale(1.3);
+}
 
