@@ -73,7 +73,7 @@ header{
     text-shadow: 0 0 5px black;
 }
 
-#nosotros h2{
+h2{
     height: 40px;
     width: 100%;
     background-color: #f72585;
@@ -92,6 +92,28 @@ header{
     color: white;
     text-shadow: 0 0 5px black;
     margin: 0;
+}
+
+.container-fluid{
+    margin: 0;
+    height: auto;
+    width: 100%;
+    background-color: #df89af;
+}
+
+.nleft{
+    background-image: url(https://goo.gl/maps/Qv3L7NJM2wN6iHct7);
+    background-size: cover;
+    background-position: center;
+    padding-top: 20px;
+    font-family:'Caveat Brush', cursive;
+    font-size: 20px;
+}
+
+.nright{
+    padding-top: 20px;
+    font-family:'Caveat Brush', cursive;
+    font-size: 20px;
 }
 
 
