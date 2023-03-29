@@ -291,13 +291,12 @@ footer {
 
 @media only screen and (min-width: 1221px) {
   .galeria {
-    height: calc(100vh - 197px);
     grid-template-columns: repeat(8, 1fr);
     grid-template-rows: 500px;
     padding: 20px;
     grid-gap: 10px;
   }
-
+  
   .item {
     height: 500px;
   }
